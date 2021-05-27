@@ -1,0 +1,210 @@
+.lm-blue .sidebar-menu .treeview-menu>li>a>span,
+.lm-blue .sidebar-menu>li>a>span {
+    margin-left: 12px
+}
+
+.lm-blue .main-header .navbar {
+    background-color: #383d41
+}
+
+.lm-blue .main-header .navbar .nav>li>a {
+    color: #fff
+}
+
+.lm-blue .main-header .navbar .nav .open>a,
+.lm-blue .main-header .navbar .nav .open>a:focus,
+.lm-blue .main-header .navbar .nav .open>a:hover,
+.lm-blue .main-header .navbar .nav>.active>a,
+.lm-blue .main-header .navbar .nav>li>a:active,
+.lm-blue .main-header .navbar .nav>li>a:focus,
+.lm-blue .main-header .navbar .nav>li>a:hover,
+.lm-blue .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(0, 0, 0, .1)
+}
+
+.lm-blue .main-header .navbar .sidebar-toggle {
+    color: #fff
+}
+
+.lm-blue .main-header .navbar .nav>li>a:hover,
+.lm-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #2a2e31
+}
+
+.lm-blue .main-header .logo {
+    background-color: #383d41;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.lm-blue .main-header .logo:hover {
+    background: #2a2e31
+}
+
+.lm-blue .main-header li.user-header {
+    background-color: #409EFF
+}
+
+.lm-blue .content-header {
+    background: 0 0
+}
+
+.lm-blue .main-sidebar {
+    background: #333744
+}
+
+.lm-blue .sidebar-menu>li>a {
+    color: #c6c8cd;
+    font-size: 12px;
+    line-height: 16px;
+    background: #42485b
+}
+
+.lm-blue .sidebar-menu>li>a>i {
+    font-size: 14px;
+    text-align: center
+}
+
+.lm-blue .sidebar-menu>li>a:hover {
+    color: #fff;
+    background: #00c1de
+}
+
+.lm-blue .sidebar-menu .treeview-menu {
+    padding: 0
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li>a {
+    padding: 12px 5px 12px 15px;
+    color: #c6c8cd;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li>a>i {
+    font-size: 12px;
+    text-align: center
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li:hover>a {
+    background: #4a5064;
+    color: #fff
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li.active>a {
+    background: #00c1de;
+    color: #fff
+}
+
+.lm-blue.layout-top-nav .main-header>.logo {
+    background-color: #409EFF;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.lm-blue.layout-top-nav .main-header>.logo:hover {
+    background-color: #3b9bff
+}
+
+.lm-blue .navbar-nav>.user-menu>.dropdown-menu {
+    width: 150px;
+}
+
+.lm-blue .dropdown-menu>li>a {
+    color: #777;
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li>a>i {
+    opacity: 0;
+}
+
+.lm-blue #nprogress .bar {
+    background: #409EFF;
+}
+
+.lm-blue .main-header .logo {
+    width: 250px;
+}
+
+.lm-blue .main-header>.navbar {
+    margin-left: 250px;
+}
+
+.lm-blue .left-side, 
+.lm-blue .main-sidebar {
+    width: 250px;
+}
+
+.lm-blue .content-wrapper,
+.lm-blue .right-side, 
+.lm-blue .main-footer {
+    margin-left: 250px;
+}
+
+.lm-blue .table>tbody>tr>td, 
+.lm-blue .table>tbody>tr>th, 
+.lm-blue .table>tfoot>tr>td, 
+.lm-blue .table>tfoot>tr>th, 
+.lm-blue .table>thead>tr>td, 
+.lm-blue .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.lm-blue .krajee-default.file-preview-frame:hover {
+    background: #eee;
+}
+
+.lm-blue .sidebar-menu>li.active>a {
+    color: #fff;
+    background-color: #00c1de;
+}
+
+.lm-blue .sidebar-menu .treeview-menu>li.active>a {
+    background-color: #4a5064;
+    color: #fff;
+}
+
+.lm-blue .navbar-nav {
+    float: left;
+}
+
+.lm-blue .file-footer-buttons .btn-default.kv-file-download {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .lm-blue .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, .1)
+    }
+
+    /* .lm-blue .main-header .navbar .dropdown-menu li a {
+        color: #fff
+    } */
+
+    .lm-blue .main-header .navbar .dropdown-menu li a:hover {
+        background: #2a2e31
+    }
+    .lm-blue .left-side, .lm-blue .main-sidebar {
+        -webkit-transform:translate(-250px, 0);
+        -ms-transform: translate(-250px, 0);
+        -o-transform: translate(-250px, 0);
+        transform: translate(-250px, 0)
+    }
+    .lm-blue .content-wrapper, .lm-blue .right-side, .lm-blue .main-footer {
+        margin-left: 0;
+    }
+    .lm-blue .main-header .logo {
+        display: none;
+    }
+    .lm-blue .main-header>.navbar {
+        margin-left: 0;
+    }
+    .lm-blue.fixed .content-wrapper,
+    .lm-blue.fixed .main-sidebar,
+    .lm-blue.fixed .left-side {
+        padding-top: 50px;
+    }
+}
